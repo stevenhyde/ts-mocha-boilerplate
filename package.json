@@ -1,0 +1,29 @@
+{
+  "name": "ts-mocha-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for projects written Typescript with mocha and wallaby.js support",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w --compilers ts:typescript-require"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenhyde/ts-mocha-boilerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "mocha",
+    "wallaby.js"
+  ],
+  "author": "Steven Hyde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenhyde/ts-mocha-boilerplate/issues"
+  },
+  "homepage": "https://github.com/stevenhyde/ts-mocha-boilerplate#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "typescript-require": "git+https://github.com/stevenhyde/typescript-require.git"
+  }
+}
